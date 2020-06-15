@@ -95,6 +95,7 @@ hframes = 18
 frame = 1
 
 [node name="AnimatioSprite" type="AnimationPlayer" parent="."]
+autoplay = "Idle"
 anims/Idle = SubResource( 1 )
 anims/fallAsleep = SubResource( 2 )
 anims/getAttack = SubResource( 3 )
