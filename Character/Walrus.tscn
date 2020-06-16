@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Character/walrus-200616.png" type="Texture" id=1]
 
@@ -52,15 +52,26 @@ tracks/0/keys = {
 "values": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ]
 }
 
+[sub_resource type="CapsuleShape2D" id=4]
+radius = 5.55272
+height = 9.47525
+
 [node name="Walrus" type="KinematicBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
+offset = Vector2( 0, -13 )
 hframes = 14
-frame = 13
+frame = 2
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "idle"
 anims/idle = SubResource( 1 )
 anims/stand = SubResource( 2 )
 anims/standup = SubResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -2 )
+rotation = 1.5708
+scale = Vector2( 1, 2 )
+shape = SubResource( 4 )

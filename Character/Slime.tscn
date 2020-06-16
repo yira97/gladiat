@@ -87,12 +87,12 @@ tracks/0/keys = {
 radius = 7.0
 
 [node name="Slime" type="KinematicBody2D"]
-position = Vector2( 0, -18 )
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
+offset = Vector2( 0, -18 )
 hframes = 18
-frame = 1
+frame = 5
 
 [node name="AnimatioSprite" type="AnimationPlayer" parent="."]
 autoplay = "Idle"
@@ -103,6 +103,5 @@ anims/inSleep = SubResource( 4 )
 anims/loseConscious = SubResource( 5 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 17 )
 rotation = 1.5708
 shape = SubResource( 6 )
