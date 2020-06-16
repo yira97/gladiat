@@ -8,5 +8,5 @@
 [node name="Slime" parent="." instance=ExtResource( 1 )]
 position = Vector2( 48.9946, 36.4754 )
 
-[node name="Walrus" parent="Slime" instance=ExtResource( 2 )]
-position = Vector2( 66.4033, 5.83902 )
+[node name="Walrus" parent="." instance=ExtResource( 2 )]
+position = Vector2( 115.398, 42.3144 )

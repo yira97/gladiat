@@ -62,7 +62,7 @@ height = 9.47525
 texture = ExtResource( 1 )
 offset = Vector2( 0, -13 )
 hframes = 14
-frame = 2
+frame = 3
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "idle"
