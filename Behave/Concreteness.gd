@@ -1,3 +1,4 @@
+# @@ final class
 extends Node
 
 # 0 because something can't move

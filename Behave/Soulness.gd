@@ -1,3 +1,4 @@
+# @@ final class
 extends Node
 
 # 1 because any soul has conscious
