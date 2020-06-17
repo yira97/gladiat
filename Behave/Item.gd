@@ -64,5 +64,9 @@ func get_id() -> String:
 	return get_type() + "-" + get_sub_type()
 
 # @@ virtual
-func stack(v) -> void:
-	pass
+func stack(v) -> bool:
+	return false
+
+# @@ destack
+func destack(remain: int):
+	return null
